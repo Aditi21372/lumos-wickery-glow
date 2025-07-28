@@ -2,61 +2,65 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Lumos Wickery Design System - Magical candle brand aesthetic
+/* Lumos Wickery Design System - Dark Magical Euphoric Theme
 All colors MUST be HSL for proper theming.
 */
 
 @layer base {
   :root {
-    /* Warm ivory/cream backgrounds */
-    --background: 35 25% 97%;
-    --foreground: 25 15% 15%;
+    /* Dark mystical backgrounds */
+    --background: 230 25% 8%;
+    --foreground: 280 15% 92%;
 
-    /* Card backgrounds with subtle warmth */
-    --card: 35 30% 98%;
-    --card-foreground: 25 15% 15%;
+    /* Card backgrounds with deep purple undertones */
+    --card: 240 20% 12%;
+    --card-foreground: 280 15% 92%;
 
     /* Popovers maintain card styling */
-    --popover: 35 30% 98%;
-    --popover-foreground: 25 15% 15%;
+    --popover: 240 20% 12%;
+    --popover-foreground: 280 15% 92%;
 
-    /* Primary: Warm golden amber (candle glow) */
-    --primary: 40 85% 45%;
-    --primary-foreground: 35 25% 97%;
-    --primary-glow: 42 90% 55%;
+    /* Primary: Mystical purple (magical glow) */
+    --primary: 270 85% 65%;
+    --primary-foreground: 240 20% 12%;
+    --primary-glow: 285 90% 75%;
 
-    /* Secondary: Muted sage green (natural, earthy) */
-    --secondary: 140 20% 85%;
-    --secondary-foreground: 25 15% 15%;
+    /* Secondary: Deep cosmic blue */
+    --secondary: 220 60% 25%;
+    --secondary-foreground: 280 15% 92%;
 
     /* Muted tones for subtle elements */
-    --muted: 35 15% 92%;
-    --muted-foreground: 25 10% 45%;
+    --muted: 240 15% 18%;
+    --muted-foreground: 280 10% 55%;
 
-    /* Accent: Warm terracotta */
-    --accent: 15 60% 70%;
-    --accent-foreground: 35 25% 97%;
+    /* Accent: Mystical red brick */
+    --accent: 0 65% 45%;
+    --accent-foreground: 280 15% 92%;
 
-    /* Destructive remains standard */
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 35 25% 97%;
+    /* Destructive: Bright red */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 280 15% 92%;
 
-    /* Borders and inputs with warm undertones */
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 40 85% 45%;
+    /* Borders and inputs with dark mystical tones */
+    --border: 240 20% 20%;
+    --input: 240 20% 20%;
+    --ring: 270 85% 65%;
 
     --radius: 0.75rem;
 
-    /* Magical gradients for candle glow effects */
+    /* Magical gradients for euphoric effects */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-warm: linear-gradient(135deg, hsl(var(--primary-glow)), hsl(var(--accent)));
+    --gradient-mystical: linear-gradient(135deg, hsl(var(--primary)), hsl(220 85% 45%));
+    --gradient-euphoric: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)), hsl(220 85% 45%));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    --gradient-stars: radial-gradient(circle at 50% 50%, hsl(var(--primary-glow)) 1px, transparent 1px);
 
-    /* Elegant shadows */
-    --shadow-soft: 0 2px 20px -5px hsl(var(--primary) / 0.15);
-    --shadow-glow: 0 0 30px hsl(var(--primary-glow) / 0.3);
-    --shadow-card: 0 4px 25px -8px hsl(var(--foreground) / 0.1);
+    /* Magical shadows with colored glows */
+    --shadow-soft: 0 2px 20px -5px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.5);
+    --shadow-card: 0 8px 32px -8px hsl(var(--primary) / 0.2);
+    --shadow-mystical: 0 0 60px hsl(var(--primary) / 0.4);
+    --shadow-red-brick: 0 4px 20px hsl(var(--accent) / 0.3);
 
     /* Smooth transitions */
     --transition-elegant: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);

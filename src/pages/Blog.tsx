@@ -158,7 +158,7 @@ const Blog = () => {
                     <User className="h-4 w-4" />
                     <span>By {blogPosts[0].author}</span>
                   </div>
-                  <Button variant="warm" asChild>
+                  <Button variant="red-brick" asChild>
                     <Link to={`/blog/${blogPosts[0].id}`}>
                       Read More
                       <ArrowRight className="ml-2 h-4 w-4" />

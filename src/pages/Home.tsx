@@ -196,7 +196,7 @@ const Home = () => {
                 represents our mission to bring light, comfort, and a touch of magic 
                 into your everyday life.
               </p>
-              <Button variant="warm" size="lg" asChild>
+              <Button variant="red-brick" size="lg" asChild>
                 <Link to="/about">
                   Read Our Full Story
                   <ArrowRight className="ml-2 h-5 w-5" />

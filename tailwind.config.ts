@@ -117,14 +117,18 @@ export default {
 				'shimmer': 'shimmer 2s linear infinite'
 			},
 			backgroundImage: {
-				'gradient-warm': 'var(--gradient-warm)',
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-subtle': 'var(--gradient-subtle)'
+				'gradient-mystical': 'var(--gradient-mystical)',
+				'gradient-euphoric': 'var(--gradient-euphoric)',
+				'gradient-subtle': 'var(--gradient-subtle)',
+				'gradient-stars': 'var(--gradient-stars)'
 			},
 			boxShadow: {
 				'soft': 'var(--shadow-soft)',
 				'glow': 'var(--shadow-glow)',
-				'card': 'var(--shadow-card)'
+				'card': 'var(--shadow-card)',
+				'mystical': 'var(--shadow-mystical)',
+				'red-brick': 'var(--shadow-red-brick)'
 			}
 		}
 	},

@@ -19,8 +19,10 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         magical: "bg-gradient-primary text-primary-foreground hover:shadow-glow hover:scale-105 animate-glow",
+        mystical: "bg-gradient-mystical text-primary-foreground hover:shadow-mystical hover:scale-105",
+        euphoric: "bg-gradient-euphoric text-primary-foreground hover:shadow-glow hover:scale-110 animate-glow",
         elegant: "bg-card text-card-foreground border border-border hover:bg-accent hover:text-accent-foreground hover:scale-105 shadow-card",
-        warm: "bg-accent text-accent-foreground hover:bg-accent/90 hover:scale-105 hover:shadow-soft",
+        "red-brick": "bg-accent text-accent-foreground hover:bg-accent/90 hover:scale-105 hover:shadow-red-brick",
       },
       size: {
         default: "h-10 px-4 py-2",
