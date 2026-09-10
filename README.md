@@ -1,5 +1,7 @@
 # Lumos Wickery
 
+![CI](https://github.com/Aditi21372/lumos-wickery-glow/actions/workflows/ci.yml/badge.svg) ![License](https://img.shields.io/badge/License-MIT-green)
+
 > A responsive multi-page storefront web app built with **React, TypeScript, Vite, and Tailwind CSS** (shadcn/ui components).
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
