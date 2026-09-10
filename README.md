@@ -9,9 +9,9 @@
 
 ## Pages
 
-- **Home** — landing page with product highlights
-- **Shop** — product catalog with `ProductCard` components
-- **About** · **Blog** · **Contact** — supporting content pages
+- **Home**: landing page with product highlights
+- **Shop**: product catalog with `ProductCard` components
+- **About** · **Blog** · **Contact**: supporting content pages
 - Custom `Header` / `Footer` layout, 404 handling
 
 ## Tech stack
